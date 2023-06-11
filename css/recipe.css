@@ -1,0 +1,40 @@
+.recipe-wrapper {
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    top: 120px;
+}
+
+h1,
+h3 {
+    color: var(--odin-darkgold);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 15px 0px 5px 0px;
+}
+
+.recipe-picture {
+    height: 300px;
+    width: auto;
+}
+
+.ingredients li {
+    list-style:disc;
+    margin-left: 15px;
+}
+
+.steps li {
+    list-style: decimal;
+    margin-left: 15px;
+}
