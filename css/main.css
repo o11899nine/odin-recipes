@@ -22,7 +22,7 @@ a {
 
 
 body {
-    background-color: #e7e7e7;
+    background-color: #f3f3f3;
 }
 
 /* HEADER */
@@ -30,7 +30,7 @@ body {
     height: 70px;
     width: 100%;
     background-color: white;
-    filter: drop-shadow(0 0 10px rgb(156, 156, 156));
+    filter: drop-shadow(0 0 8px rgb(156, 156, 156));
     display: flex;
     position: fixed;
     z-index: 9999;
