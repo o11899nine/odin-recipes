@@ -21,7 +21,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.recipes-wrapper {
+.recipes-container {
     width: 1500px;
     margin: 50px auto;
     display: flex;
