@@ -33,11 +33,12 @@ body {
     filter: drop-shadow(0 0 10px rgb(156, 156, 156));
     display: flex;
     position: fixed;
+    z-index: 9999;
 }
 
 .main-header-logo {
     height: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
@@ -47,7 +48,8 @@ body {
     background-image: url("https://avatars.githubusercontent.com/u/4441966");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;}
+    background-size: contain;
+}
 
 .main-header-logo-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
