@@ -1,5 +1,102 @@
+:root {
+    --odin-gold: #E3B261;
+    font-size: 62.5%;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+/* HEADER */
+
+.main-header {
+    height: 200px;
+    background-color: var(--theme-orange-dark);
+    /* border: 2px solid red; */
+}
+
+.main-header {
+    height: 70px;
+    background-color: white;
+    filter: drop-shadow(0 0 10px rgb(156, 156, 156));
+    display: flex;
+}
+
+.main-header-logo {
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.main-header-logo-image {
+    height: 80%;
+    width: 50px;
+    background-image: url("https://avatars.githubusercontent.com/u/4441966");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;}
+
+.main-header-logo-title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3rem;
+    /* border: 2px solid green; */
+    color: var(--odin-gold);
+    text-shadow: 1px 1px 1px rgb(85, 85, 85);
+    margin-right: 20px;
+}
+
+.main-header-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+.main-header-nav a {
+    color: black;
+    display: block;
+    padding: 20px 10px;
+    /* border: 2px solid red; */
+}
+
+.main-header-nav a:hover {
+    color: #b97200;
+}
+
+
+/* INDEX PAGE */
+.index-main {
+    height: calc(100vh - 70px);
+    background-image: url("/img/recipe-book.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+
+
+/* RECIPES PAGE */
+
+.recipes-wrapper {
+    width: 1500px;
+    border: 2px solid blue;
+    margin: 50px auto;
+    display: flex;
+
 }
 
 .recipe-picture {
@@ -7,9 +104,11 @@
     width: auto;
 }
 
-h1 {
-    background-color: #005f1d;
-    color: white;
+.recipe-card {
+    border: 2px solid red;
+    margin: 20px;
+    height: 200px;
+    width: 400px;
 }
 
 h3 {
