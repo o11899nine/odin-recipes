@@ -23,17 +23,14 @@ body {
 
 /* HEADER */
 
-.main-header {
-    height: 200px;
-    background-color: var(--theme-orange-dark);
-    /* border: 2px solid red; */
-}
 
 .main-header {
     height: 70px;
+    width: 100%;
     background-color: white;
     filter: drop-shadow(0 0 10px rgb(156, 156, 156));
     display: flex;
+    position: fixed;
 }
 
 .main-header-logo {
@@ -79,9 +76,9 @@ body {
 }
 
 
-/* INDEX PAGE */
-.index-main {
-    height: calc(100vh - 70px);
+/* HERO SECTION */
+.hero-section {
+    height: 100vh;
     background-image: url("/img/recipe-book.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -89,15 +86,17 @@ body {
 }
 
 
-/* RECIPES PAGE */
+/* RECIPES SECTION */
 
 .recipes-wrapper {
     width: 1500px;
     border: 2px solid blue;
     margin: 50px auto;
     display: flex;
-
+    flex-wrap: wrap;
+    padding-top: 20px;
 }
+
 
 .recipe-picture {
     height: 400px;
@@ -106,9 +105,9 @@ body {
 
 .recipe-card {
     border: 2px solid red;
-    margin: 20px;
     height: 200px;
-    width: 400px;
+    width: 30%;
+    margin: 0px 10px 20px 10px;
 }
 
 h3 {
