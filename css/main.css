@@ -41,7 +41,7 @@ body {
     z-index: 9999;
 }
 
-.main-header-logo {
+.main-header-logo-container {
     height: 100%;
     display: flex;
     align-items: center;
@@ -62,19 +62,21 @@ body {
     font-size: 3rem;
     color: var(--odin-gold);
     text-shadow: 1px 1px 1px rgb(85, 85, 85);
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .main-header-nav {
     display: flex;
     height: 100%;
     align-items: center;
+    gap: 20px;
 }
 
 .main-header-nav a {
     color: black;
     display: block;
     padding: 20px 10px;
+    transition: all 0.2s ease-in-out;
 }
 
 .main-header-nav a:hover {
