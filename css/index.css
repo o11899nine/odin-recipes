@@ -6,7 +6,7 @@
     position: relative;
     top: 70px;
     height: calc(100vh - 70px);
-    background-image: url("/img/recipe-book.jpg");
+    background-image: url("../img/recipe-book.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
